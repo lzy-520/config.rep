@@ -1,2 +1,10 @@
 config:
   info: "master branch,springcloud-config/config-dev.yml version=7" 
+
+spring:
+    datasource:
+    druid:
+      driver-class-name: com.mysql.jdbc.Driver
+      url: jdbc:mysql://localhost:3306/user?useUnicode=true&characterEncoding=utf-8
+      username: root
+      password: 123456
